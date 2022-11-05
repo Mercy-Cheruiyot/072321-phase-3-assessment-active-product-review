@@ -19,7 +19,8 @@ start coding_. Remember to identify a single source of truth for your data.
 - Active Record Associations
 - Class and Instance Methods
 - Active Record Querying
-
+  
+  
 ## Instructions
 
 To get started, run `bundle install` while inside of this directory.
