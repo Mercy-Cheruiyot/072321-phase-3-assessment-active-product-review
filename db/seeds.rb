@@ -24,12 +24,10 @@ puts "Creating reviews..."
 # Create Reviews Here
 
 20.times do 
-    # user_ids = User.all.map {|user| user.id}
-    # product_ids = Product.all.map {|product| product.id}
+  
 
     Review.create(
-        # product_id: product_ids[rand(0..4)],
-        # user_id: user_ids[rand(0..2)],
+     
         user_id: [user1,user2,user3].sample.id,
         product_id:[product1,product2,product3,product4,product5].sample.id,
         star_rating: rand(1..10),
